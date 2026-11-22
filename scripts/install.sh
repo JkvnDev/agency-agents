@@ -614,7 +614,7 @@ division_emoji() {
     finance) printf '💵';; game-development) printf '🎮';; gis) printf '🌍';; marketing) printf '📢';;
     paid-media) printf '💰';; product) printf '📊';; project-management) printf '🎬';;
     research) printf '🔍';; sales) printf '💼';; security) printf '🔒';; spatial-computing) printf '🥽';;
-    specialized) printf '🎯';; support) printf '🛟';; testing) printf '🧪';; *) printf '•';;
+    specialized) printf '🎯';; supply-chain) printf '🚚';; support) printf '🛟';; testing) printf '🧪';; *) printf '•';;
   esac
 }
 
