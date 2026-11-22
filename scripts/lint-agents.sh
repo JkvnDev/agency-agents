@@ -32,6 +32,7 @@ AGENT_DIRS=(
   security
   spatial-computing
   specialized
+  supply-chain
   support
   testing
 )

@@ -561,6 +561,20 @@ Finding, evaluating, and synthesizing existing evidence rather than generating n
 |-------|-----------|-------------|
 | 🔍 [Research Synthesist](research/research-synthesist.md) | Literature review, source evaluation, citation tracing, evidence synthesis | Turning a scattered pile of sources into a structured, honestly-weighted map of what the evidence supports |
 
+### 🚚 Supply Chain Division (PT-BR)
+
+Agentes de logística industrial em português do Brasil: recebimento com CQ, Lean, frete e ERP (Protheus/SAP). Funcionam junto com as skills de [Skills-Claudinho](https://github.com/JkvnDev/Skills-Claudinho) (`skills/kevin-logistica/`).
+
+| Agent | Specialty | When to Use |
+|-------|-----------|-------------|
+| 🚚 [Coordenador de Logística](supply-chain/supply-chain-coordenador-logistica.md) | Coordenação de recebimento, armazenagem, expedição e frete; planos de ação e comunicação executiva | Priorizar problemas da operação, montar plano de ação, one-pager para a gestão |
+| 📥 [Analista de Recebimento e CQ](supply-chain/supply-chain-analista-recebimento-cq.md) | Doca → conferência → CQ → liberação → endereçamento, plano de voo diário | MP retida em quarentena, SLA do CQ, divergências de recebimento |
+| 🧭 [Especialista Lean em Logística](supply-chain/supply-chain-especialista-lean-logistica.md) | AS-IS/TO-BE, SIPOC, VSM, DEIP, pontos de controle, Standard Work | Mapear processos, achar desperdícios, padronizar a operação |
+| 🧾 [Analista de Frete](supply-chain/supply-chain-analista-frete.md) | Auditoria de CT-e, composição do frete, comparação de transportadoras, OTIF | Reduzir custo de frete, contestar cobranças, gerir frete dedicado |
+| 🗄️ [Especialista em ERP Logístico](supply-chain/supply-chain-especialista-erp-logistico.md) | Protheus (TOTVS) e SAP MM/EWM, conciliação sistêmico × físico, migração | Investigar divergência de estoque, extrair dados, preparar migração para o SAP |
+
+Instalar só esta divisão no Claude Code: `./scripts/install.sh --tool claude-code --division supply-chain`
+
 ---
 
 ## 🎯 Real-World Use Cases
